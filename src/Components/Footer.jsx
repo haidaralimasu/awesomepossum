@@ -16,13 +16,19 @@ export default function Footer() {
                 2022 Awesome Possums. All rights Reserved.
               </span>
               <div className="d-flex align-items-center justify-content-center my-lg-0 my-">
-                <a href="">
+                <a
+                  href="https://www.twitter.com/1_awesomepossum"
+                  target="_blank"
+                >
                   <BsTwitter className="fs-3 mx-2" />
                 </a>
                 <a href="">
                   <FaDiscord className="fs-3 mx-2" />
                 </a>
-                <a href="">
+                <a
+                  href="https://www.instagram.com/awesomepossums_nft"
+                  target="_blank"
+                >
                   <AiFillInstagram className="fs-3 mx-2" />
                 </a>
               </div>

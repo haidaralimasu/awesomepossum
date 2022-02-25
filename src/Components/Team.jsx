@@ -37,6 +37,7 @@ export default function Team() {
                   alt=""
                 />
               </a>
+
               <a href="" className="mx-3">
                 <img
                   src="assets/images/linkedin.webp"
@@ -44,6 +45,11 @@ export default function Team() {
                   alt=""
                 />
               </a>
+            </div>
+            <div style={{ textAlign: "center" }}>
+              we are currently interviewing for new team members that will have
+              high passion and integrity for that project. Please standby for
+              updated team members.
             </div>
           </div>
           {/* <div className="col-lg-4 p-4 d-flex flex-column align-items-center  col-12">

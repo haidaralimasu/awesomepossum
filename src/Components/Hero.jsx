@@ -64,7 +64,7 @@ export default function Hero() {
     <>
       <div className="hero-bg d-lg-block d-none">
         <img
-          style={{ height: "700px", marginTop: "90px" }}
+          style={{ height: "700px", marginTop: 100 }}
           src="assets/10_remove.png"
           alt=""
         />
@@ -153,16 +153,22 @@ export default function Hero() {
         </div>
         <div className="collective">Collective</div>
         <div className="d-flex align-items-center container">
-          <a href="">
+          <a href="https://www.twitter.com/1_awesomepossum" target="_blank">
             <AiOutlineTwitter className="social-link" />
           </a>
           <a href="">
             <FaDiscord className="social-link" />
           </a>
-          <a href="">
+          <a
+            href="https://www.instagram.com/awesomepossums_nft"
+            target="_blank"
+          >
             <AiFillInstagram className="social-link" />
           </a>
-          <a href="">
+          <a
+            href="https://opensea.io/collection/awesomepossums"
+            target="_blank"
+          >
             <img src="assets/images/opensea.png" className="social-link-2" />
           </a>
         </div>

@@ -30,7 +30,11 @@ export default function Header() {
             /> */}
             Awesome Possums
           </Navbar.Brand>
-          <span className="d-lg-none d-flex menu-btn" onClick={toogle}>
+          <span
+            style={{ cursour: "pointer" }}
+            className="d-lg-none d-flex menu-btn"
+            onClick={toogle}
+          >
             menu
           </span>
           <Navbar.Collapse id="basic-navbar-nav">
