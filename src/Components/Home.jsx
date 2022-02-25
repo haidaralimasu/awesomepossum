@@ -25,9 +25,9 @@ export default function Home() {
       <Hero />
       <Timer />
       <Projects />
+      <SecondSection />
       <CardSection />
       <Roadmap />
-      {/* <SecondSection /> */}
 
       <Benefits />
       <Team />
