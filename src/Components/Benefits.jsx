@@ -8,10 +8,10 @@ export default function Benefits() {
           <div className="col-lg-7 blood-parent col-12 offset-lg-5 offset-0">
             <img src="assets/images/blood.svg" className="blood" alt="" />
             <div className="heading"> Benefits of ownership</div>
-            <p className="fs-5 mt-3 mb-5">
+            {/* <p className="fs-5 mt-3 mb-5">
               All decisions made in the Graffiti Bears community will be
               controlled by a DAO where 1 Graffiti Bear equals 1 vote.
-            </p>
+            </p> */}
           </div>
         </div>
         <div className="row mx-0 align-items-start">
